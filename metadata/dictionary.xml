@@ -36,8 +36,13 @@
 
 		<value description="Other data type.">OtherDataType</value>
 
-	</attribute>
+	<attribute name="FileType">
+		
+		<value description="Delimited (csv, xls, tab).">Delimited</value>
 
+		<value description="GIS (shapefile, gdb).">GIS</value>
+
+		<value description="Other or unknown">OtherType</value>
 
 	<attribute name="CollectingMethodology">
 		<value description="Generalizable data based on a probability sample.">ProbabilitySurvey</value>
