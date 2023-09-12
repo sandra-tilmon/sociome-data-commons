@@ -26,15 +26,13 @@
 		
 		<value description="Data that are at the address level.">AddressData</value>
 
-		<value description="Data that are estimates on a geographic level.">AreaData</value>
-
-		<value description="Data that are linked to associations, institutions, agencies, businesses, political parties, schools, etc..">OrganizationData</value>
+		<value description="Data that are linked to associations, institutions, agencies, businesses, political parties, schools, etc.">OrganizationData</value>
 
 		<value description="Data that are linked to a person or a group of persons who share the same dwelling unit and common living arrangements.">HouseholdData</value>
 
 		<value description="Data that are linked to any type of incident, occurrence, or activity. Events are linked to GeographicUnits">EventData</value>
 
-		<value description="Data that are linked to a GeographicalUnit.">LocationData</value>
+		<value description="Data that are estimates on a geographic level (e.g., census tract).">LocationData</value>
 
 		<value description="Other data type.">OtherDataType</value>
 
@@ -44,9 +42,9 @@
 	<attribute name="CollectingMethodology">
 		<value description="Generalizable data based on a probability sample.">ProbabilitySurvey</value>
 
-		<value description="Direct measurements.">DirectMeasurements</value>
+		<value description="Direct measurements (e.g., crime events).">DirectMeasurements</value>
 
-		<value description="Modeled results.">Modeled</value>
+		<value description="Modeled results (e.g., air quality modeled over an area from individual sensors).">Modeled</value>
 
 		<value description="Other or unknown.">Other</value>
 
@@ -86,7 +84,7 @@
 
 		<value description="Capture on going processes with a one-year update cycle.">YearlyUnit</value>
 
-		<value description="Capture on going processes with a multi-year update cycle.">MultiYearUnit</value>
+		<value description="Capture on going processes with a multi-year update cycle (e.g., American Community Survey Planning Database).">MultiYearUnit</value>
 	</attribute>
 
 
